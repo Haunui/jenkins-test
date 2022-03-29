@@ -1,7 +1,6 @@
-main: clean
-	gcc main.c -o main
+main: compile clean
 
-wrm:
+compile:
 	gcc main.c -o main
 
 clean:
